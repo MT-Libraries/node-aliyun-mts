@@ -1,0 +1,29 @@
+{
+  "name": "node-aliyun-mts",
+  "version": "1.0.0",
+  "description": "aliyun mts service for nodejs",
+  "homepage": "https://github.com/MT-Libraries/node-aliyun-mts",
+  "main": "./src/mts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aliyun",
+    "mts",
+    "node"
+  ],
+  "author": "Thonatos.Yang",
+  "license": "MIT",
+  "dependencies": {
+    "urllib": "^2.5.0",
+    "xml2json": "^0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MT-Libraries/node-aliyun-mts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MT-Libraries/node-aliyun-mts/issues",
+    "mail": ""
+  }
+}
