@@ -77,4 +77,5 @@ crashlytics.properties
 crashlytics-build.properties
 
 *.DS_Store
+test/test.json
 
