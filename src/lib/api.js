@@ -32,16 +32,16 @@ var api = function (bundleInterface) {
             }
         }, function (err, data, res) {
             
-            if (err) {                
-                _callback(true,err);                
+            if (err) {                                              
                 throw err;
+                _callback(err,null);  
                 return; 
             }            
             
             var xml = data.toString();
             var json = parser.toJson(xml); //returns a string containing the JSON structure by default 
 
-            _callback(null,json);            
+            _callback(null,JSON.parse(json));            
 
         });
     };

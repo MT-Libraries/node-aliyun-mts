@@ -1,6 +1,6 @@
 {
   "name": "node-aliyun-mts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "aliyun mts service for nodejs",
   "homepage": "https://github.com/MT-Libraries/node-aliyun-mts",
   "main": "./src/mts.js",
